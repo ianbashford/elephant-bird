@@ -58,7 +58,6 @@ import org.apache.pig.data.Tuple;
  *   @see com.twitter.elephantbird.pig.load.SequenceFileKeyValueLoader 
  *   @see com.twitter.elephantbird.pig.load.SequenceFileValueOnlyLoader
  *   
- * 
  */
 
 
