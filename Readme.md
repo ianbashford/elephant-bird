@@ -80,6 +80,11 @@ Apache licensed.
 * Tokenized storage (PigStorage equivalent but for LZO)
 * Serialized protocol buffers in one flavor
     * Line-based, base64 encoded (via codegen, see below)
+
+##### Simple SequenceFile LoadFuncs and StoreFuncs for Pig #####
+* Store pig output directly into SequenceFiles
+* Sequence file loaders for Key and Value or ValueOnly 
+	* Loads SequenceFile data straight into PigSchema
     
 ##### Utilities #####
 * Counters in Pig
